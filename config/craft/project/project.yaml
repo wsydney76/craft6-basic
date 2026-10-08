@@ -1,0 +1,84 @@
+dateModified: 1791463922
+elementSources:
+  CraftCms\Cms\Entry\Elements\Entry:
+    - defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: table
+      disabled: false
+      key: '*'
+      page: Entries
+      tableAttributes:
+        - status
+        - section
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    - defaultSort:
+        - title
+        - asc
+      defaultViewMode: table
+      disabled: false
+      key: singles
+      page: Entries
+      tableAttributes:
+        - status
+        - section
+        - link
+      type: native
+    - heading: Channels
+      key: 'heading:c80c9ee7-862c-41ab-9612-ee033975ae88'
+      page: Entries
+      type: heading
+    - defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: table
+      disabled: false
+      key: 'section:90a86bc2-6e67-4370-889e-314a3736fc2d'
+      page: Entries
+      tableAttributes:
+        - status
+        - 'fieldInstance:822a7287-3023-4a8a-8731-3ca6867d2f49'
+        - postDate
+        - link
+      type: native
+mcp:
+  publicAllowDrafts: false
+  publicAllowInactive: false
+  publicAllowRevisions: false
+  publicEnabled: true
+  publicNestedEntryFieldHandles:
+    - contentBuilder
+  publicRoute: /mcp
+  publicSectionHandles:
+    - article
+  publicSiteHandles:
+    - default
+  publicTools:
+    - craft-context-get
+    - craft-query
+  publicVolumeHandles:
+    - images
+meta:
+  __names__:
+    507190df-3802-44b1-a9df-c56a042d3c6d: 'Simple Page' # Simple Page
+    d0261b43-45c5-4ee4-96dd-b74042705196: Default # Default
+    d1b40666-8b39-4ce4-b084-1b6f782aea9e: Home # Home
+    dd84d747-4f3d-4c6c-bb91-014e050ed11e: Default # Default
+    fa25ff96-88dd-4065-a4c8-c2f710b17247: Images # Images
+    fad52ce1-f8eb-4e3c-877c-ff2e7885a850: 'Images Transformer' # Images Transformer
+system:
+  edition: solo
+  name: $APP_NAME
+  retryDuration: null
+  schemaVersion: 6.0.0.23
+  timeZone: $TZ
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

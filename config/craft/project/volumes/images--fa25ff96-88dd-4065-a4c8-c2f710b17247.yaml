@@ -1,6 +1,5 @@
 altTranslationKeyFormat: null
 altTranslationMethod: none
-assetTransformer: imagesTransformer
 fieldLayouts:
   3e427445-0c10-4117-a32d-b82b3272ce1d:
     cardThumbAlignment: end
@@ -45,6 +44,7 @@ fs: public
 handle: images
 hasUrls: true
 name: Images
+propagationMethod: custom
 sortOrder: 1
 subpath: images
 titleTranslationKeyFormat: null

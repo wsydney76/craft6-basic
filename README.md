@@ -6,11 +6,11 @@ For a more extended example with a basic content model and more examples, see [C
 
 ## Disclaimer
 
-Craft 6 is still in alpha, so anything may break anytime.
+Craft 6 is still in beta, so anything may break anytime.
 
 ## Installation
 
-Clone this repository into a new project directory `git clone https://github.com/wsydney76/craft6-basic your-project` and run `setup/install your-project` in it, or execute the included steps manually, adjusted to your needs.
+Clone this repository into a new project directory `git clone https://github.com/wsydney76/craft6-basic your-project` and run `setup/install project-name username password` in it, or execute the included steps manually, adjusted to your needs.
 
 > `setup/install` is not executable by default, so you may need to run `chmod +x setup/install` first, or run `bash setup/install` to execute it.
 
@@ -40,10 +40,6 @@ Added  `Home` single sections with a `Simple Page` entry type (title only).
 ### Assets
 
 Added an `images` asset volume  with `public/images` root directory.
-
-Added an `Images Transformer` asset transformer with `public/dist/transforms/images` root directory.
-
-> Convention: Set up a dedicated asset transformer for each asset volume to match paths.
 
 ### Templates
 
